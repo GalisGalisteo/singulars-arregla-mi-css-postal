@@ -3,13 +3,14 @@ body{
     background-color:white;
     font-family: 'Handlee', cursive; 
     /* para encontrar la fuente tuve que ir al video */
+    background: black;
 }
 
 .titulo img{
     float: right;
     width: 60px;
     position: relative;
-    top: -115px;
+    /* top: -115px; */
 }
 
 .post{
@@ -36,6 +37,7 @@ body{
     border: none;
     color: gray;
     padding: 5px;
+    border-bottom: 1px solid lightslategray;
 }
 
 input {
@@ -43,6 +45,7 @@ input {
 }
 footer{
     clear:both;
+    text-align: center;
 }
 
 footer input[type=submit]{
@@ -50,6 +53,7 @@ footer input[type=submit]{
     border-bottom: 1px solid gray;
     background-color:darkgray;
     font-family: 'Handlee', cursive; 
+    padding: 0.5rem;
 }
 
 /* no se me ocurrio donde usar la propiedad de overflow */
